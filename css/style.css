@@ -31,6 +31,61 @@ body {
     color: #e5e7eb;
     font-size: 18px;
 }
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 30px 10px 0 ;
+}
+.image-wrapper{
+    flex: 1;
+}
+.krishna-image{
+    width: 640px;
+    height: 360px;
+    border-radius: 20px;
+}
+.hero{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    padding-right: 50px;
+}
+.subtext{
+    font-size: 20px;
+    color: #e5e7eb;
+}
 .test{
     border: 2px red solid;
+}
+.contribute{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 20px;
+}
+.contribute input[type="text"] {
+    flex: 3;
+    background-color: #1F2937;
+    border: 2px #474e56 solid;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+.contribute button{
+    flex: 1;
+    background-color:#3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
 }
