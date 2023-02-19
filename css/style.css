@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #1F2937;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+    margin: 0;
+}
+.links a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.test{
+    border: 2px red solid;
+}
