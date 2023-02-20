@@ -7,6 +7,7 @@ body {
     color: white;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 100px;
 }
 .header {
     display: flex;
@@ -18,18 +19,20 @@ body {
     font-size: 28px;
     font-weight: 700;
     color: #f9faf8;
+    font-family: monospace;
 }
 
 .links{
     list-style-type: none;
     display: flex;
-    gap: 14px;
+    gap: 34px;
     margin: 0;
 }
 .links a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-family: monospace;
 }
 .content{
     display: flex;
@@ -50,6 +53,7 @@ body {
     width: 640px;
     height: 360px;
     border-radius: 20px;
+    margin-top: 40px;
 }
 .hero{
     font-size: 48px;
@@ -60,6 +64,9 @@ body {
 .subtext{
     font-size: 20px;
     color: #e5e7eb;
+    font-family: monospace;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .test{
     border: 2px red solid;
@@ -79,8 +86,10 @@ body {
     font-size: 18px;
     color: #f9faf8;
 }
-.contribute button{
-    flex: 1;
+.gotoplaylist{
+    /* flex: 1; */
+    text-decoration: none;
+    text-align: center;
     background-color:#3882F6;
     color: #f9faf8;
     border: none;
@@ -88,4 +97,51 @@ body {
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
+    font-family: monospace;
+}
+.playlist-header{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-top: 36px;
+    font-family: monospace;
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    /* gap: 2px; */
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 46px 200px 36px 200px;
+    justify-content: center;
+}
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card a{
+    text-decoration: none;
+    text-align: center;
+    background-color:#3882F6;
+    color: #f9faf8;
+    border: none;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
