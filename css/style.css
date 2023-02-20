@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 .top{
     background-color: #1F2937;
@@ -144,4 +146,50 @@ body {
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.quote-block{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 46px 290px 36px 290px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    
+}
+.author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+}
+.footer{
+    font-size: 22px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    align-self: stretch;
+    text-align: center;
+    padding: 36px 0 36px 0;
+}
+.spotify-wrapper{
+    display: flex;
+    align-self: stretch;
+    padding: 46px 290px 36px 290px;
+}
+.spotify{
+    background-color:#3882F6;
+    color: #f9faf8;
+    border-radius: 7px;
+    font-family: monospace;
+    display: flex;
+}
+.spotify-wrapper div, .spotify-wrapper a{
+    flex: 1 1 auto;
+    border: 2px red solid;
+}
+.spotify-wrapper a{
+    text-align: center;
 }
