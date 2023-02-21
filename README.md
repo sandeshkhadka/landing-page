@@ -1,4 +1,5 @@
-#Peace Playlist
+##Peace Playlist
+
 This is a Landing page I created as a assignment for TheOdinProject.
 
 Disclaimer: I do not own any of the images used in this project. 
