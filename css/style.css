@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -185,11 +190,24 @@ body {
     border-radius: 7px;
     font-family: monospace;
     display: flex;
-}
-.spotify-wrapper div, .spotify-wrapper a{
+    gap: 16px;
     flex: 1 1 auto;
-    border: 2px red solid;
+    justify-content: space-between;
+    padding: 46px 200px 46px  100px;
 }
 .spotify-wrapper a{
     text-align: center;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px white solid;
+    border-radius: 13px;
+    padding: 8px;
+   align-self: center; 
+}
+.spotify-content h2 {
+    font-size: 22px;
+}
+.spotify-content {
+    font-size: 18px;
 }
